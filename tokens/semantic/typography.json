@@ -43,7 +43,7 @@
     },
     "lineHeight": {
       "heading": {
-        "value": "{font.lineHeight.compact}",
+        "value": "{font.lineHeight.tight}",
         "type": "lineHeights",
         "description": "Designated default line-height applied to heading elements and big numbers."
       },
@@ -147,6 +147,35 @@
           "lineHeight": "{font.lineHeight.heading}",
           "fontWeight": "{font.weight.heading}",
           "fontSize": "{font.size.md}"
+        },
+        "type": "typography"
+      }
+    },
+    "quote": {
+      "lg": {
+        "value": {
+          "fontFamily": "{font.family.heading}",
+          "lineHeight": "{font.lineHeight.compact}",
+          "fontWeight": "{font.weight.body}",
+          "fontSize": "{font.size.hg}"
+        },
+        "type": "typography"
+      },
+      "md": {
+        "value": {
+          "fontFamily": "{font.family.heading}",
+          "lineHeight": "{font.lineHeight.compact}",
+          "fontWeight": "{font.weight.body}",
+          "fontSize": "{font.size.xxl}"
+        },
+        "type": "typography"
+      },
+      "sm": {
+        "value": {
+          "fontFamily": "{font.family.heading}",
+          "lineHeight": "{font.lineHeight.compact}",
+          "fontWeight": "{font.weight.body}",
+          "fontSize": "{font.size.xl}"
         },
         "type": "typography"
       }
