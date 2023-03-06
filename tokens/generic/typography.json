@@ -119,9 +119,9 @@
     },
     "lineHeight": {
       "tight": {
-        "value": "100%",
+        "value": "110%",
         "type": "lineHeights",
-        "description": "For better height control on UI elements"
+        "description": "For larger bodys of text, such as headings"
       },
       "compact": {
         "value": "125%",
